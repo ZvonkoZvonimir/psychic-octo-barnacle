@@ -1,0 +1,25 @@
+body{
+  background-color: rgba(17, 16, 16, 0.959);
+  color: rgba(255, 255, 255, 0.822);
+}
+
+#show-contact {
+    display: none;
+  }
+  
+  .contact {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  
+  .contact:hover {
+    text-decoration: underline;
+  }
+
+.btn,  p
+{
+  display: inline;
+}
+li{
+  display: block;
+}
