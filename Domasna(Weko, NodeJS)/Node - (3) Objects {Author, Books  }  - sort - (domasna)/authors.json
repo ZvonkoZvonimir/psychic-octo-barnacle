@@ -1,0 +1,44 @@
+{
+  "totalCount": [
+    {
+      "author": "Ursula K. Le Guin",
+      "books": 2
+    },
+    {
+      "author": "Maureen F. McHugh",
+      "books": 1
+    },
+    {
+      "author": "Orson Scott Card",
+      "books": 1
+    },
+    {
+      "author": "Margaret Atwood",
+      "books": 1
+    },
+    {
+      "author": "Frank Herbert",
+      "books": 1
+    },
+    {
+      "author": "Connie Willis",
+      "books": 1
+    },
+    {
+      "author": "Joe Haldeman",
+      "books": 1
+    },
+    {
+      "author": "Kate Wilhelm",
+      "books": 1
+    },
+    {
+      "author": "Mary Shelley",
+      "books": 1
+    },
+    {
+      "author": "Daniel Keyes",
+      "books": 1
+    }
+  ]
+}
