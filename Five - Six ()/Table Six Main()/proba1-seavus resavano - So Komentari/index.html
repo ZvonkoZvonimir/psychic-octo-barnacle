@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bodyPage">
+    <button id="anthology">Antalogy</button>
+    <button id="novel">Novel</button>    
+    <button id="del">Delete</button>
+    <button id="prev">Previos</button>
+    <button id="next">Next</button>
+    
+    <select id="sortingMyTable">
+            <option selected>Choose...</option>
+            <option value="ID">ID</option>
+            <option value="Kind">Kind</option>
+            <option value="Publisher">Publisher</option>
+            <option value="Title">Title</option>
+            <option value="Year">Year</option>
+            <option value="Length">Length</option>
+    </select>
+    <input type="text" placeholder="regularSearch..." id="regularSearch">
+    <button id="regularSearchBtn" >Regular Search</button>
+
+    <button id="insert">Insert New Book</button>
+
+    
+    <div id="topDiv"><!-- for inserting the dinamicly created butons -->
+    </div>
+    
+        <table>
+                <thead>
+                    <tr>
+                        <th>Kind</th>
+                        <th>Author</th>
+                        <th>Title</th>
+                        <th>Delete</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tbody id="myBody">
+                    
+        
+                </tbody>
+        </table>
+ <!-- main body end -->
+</div>
+
+    <div id="newBook">
+        <button id="addBook">AddBook</button>
+        <button id="back">Main menu</button>
+        
+        <input type="text" placeholder="Title" id="newBookTitle">
+        <input type="text" placeholder="Author" id="newBookAuthor">
+        <select name="Kind" id="newKind">
+            <option value="anthology">anthology</option>
+            <option value="novel">novel</option>     
+        </select>
+    </div>
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script  src="script.js"></script>
+</body>
+</html>
