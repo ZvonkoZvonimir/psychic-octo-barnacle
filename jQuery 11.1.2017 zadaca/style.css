@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+#two {
+    background-color: gainsboro;
+}
+
+#one {
+    background-color: greenyellow;
+}
+
+#three {
+    background-color: mediumblue;
+}
+
+#four {
+    background-color: yellow;
+}
+
+#five {
+    background-color: aqua;
+}
