@@ -1,0 +1,155 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+body{ background-color: #1a1c1a;}
+#main
+{
+	box-sizing: border-box;
+	border: 2px solid #66aa6d;
+	width: 500px;
+	height: 800px;
+	background-color: #1a1c1a;
+	margin: 100px;
+	/*padding: 20px;*/
+
+}
+#sub_main
+{
+	box-sizing: border-box;
+	/*border: 2px solid #ffffff;*/
+	width: 100%;
+	height: 100%;
+}
+
+/*main dispplay*/
+#m_display
+{
+	box-sizing: border-box;
+	width: 100%;
+	height: 20%;
+	border: 2px solid #66aa6d;
+	/*margin: 0px auto;
+	margin-top: 20px;*/
+	background-color: #1f211f;
+}
+
+#result
+{
+	box-sizing: border-box;
+	text-align: right;
+	font-size: 80px;
+	color: white;
+	width: 100%;
+	height: 80%;
+	padding-right: 10px;
+	color: #64ef73;
+	overflow: hidden;
+}
+
+#display
+{
+	box-sizing: border-box;
+	font-size: 20px;
+	color: rgb(100, 239, 115);
+	opacity: 0.9;
+	width: 100%;
+	height: 20%;
+	overflow: hidden;
+
+}
+
+/*all buttons*/
+#buttons
+{
+	box-sizing: border-box;
+	width: 100%;
+	height: 80%;
+	border: 1px solid #418da0;
+	/*margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 20px;*/
+}
+
+.rows
+{
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	height: 20%;
+}
+
+.my_button
+{
+	box-sizing: border-box;
+	border: 1px solid #66aa6d;
+	float: left;
+	background-color: #1f211f;
+	color: #66aa6d; 
+	width: 25%;
+	height: 100%;
+	font-size: 40px;
+}
+
+.my_button:hover
+{
+	border: 3px dashed #23ff23 !important;
+	color: #23ff23 !important;
+}
+
+#minus:hover
+{
+	border: 3px dashed #ffb056 !important;
+	color: #ffb056 !important;
+}
+
+#plus:hover
+{
+	border: 3px dashed #2de3ff !important;
+	color: #2de3ff !important;
+}
+
+#equal:hover
+{
+	border: 3px dashed #fc7aff !important;
+	color: #fc7aff !important;
+}
+
+#erase:hover
+{
+	border: 3px dashed #ffb056 !important;
+	color: #ffb056 !important;
+}
+
+#divide:hover
+{
+	border: 3px dashed #cfff56 !important;
+	color: #cfff56 !important;
+}
+
+#multiply:hover
+{
+	border: 3px dashed #2de3ff !important;
+	color: #2de3ff !important;
+}
+#dot:hover
+{
+	border: 3px dashed #cfff56 !important;
+	color: #cfff56 !important;
+}
+#clear_all:hover 
+{
+	border: 3px dashed #ff7f85 !important; 
+	color: #ff7f85 !important;
+}
+#clear_result:hover 
+{
+	border: 3px dashed #7f85ff !important; 
+	color: #7f85ff !important;
+}
+
+.num_sign
+{
+	background-color: black;
+}

@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: wheat;
+}
+
+div{
+    height: 500px;
+    width: 500px;
+    display: none;
+    font-size: 50px;
+}
+
+#one{
+    border: 8px solid red;
+}
+#two{
+    border: 8px solid blue;
+}
+#three{
+    border: 8px solid yellow;
+}
+#four{
+    border: 8px solid #b3347a;
+}
+#five{
+    border: 8px solid #5bc23c;
+}
+.active
+{
+    display: block;
+}
+input{
+    width: 200px;
+    height: 20px;
+    margin: 20px;
+    display: block;
+}
