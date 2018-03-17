@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Page Title</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="CSS/style.css" />
+        
+    </head>
+    <body>
+        <div id="inputs-div">
+            <input type="text" placeholder="Your Name Sir" id="name-input">
+            <input type="text" placeholder="Your Last Name Sir" id="lastname-input">
+            <input type="text" placeholder="Your Email Sir" id="email-input">
+            <input type="password" placeholder="Your Password Sir" id="pass-input" >
+            <input type="text" placeholder="Your Phone Number" id="phone-input" >
+            <button id="new-row-btn">Add Contact</button>
+        </div>
+        
+        <select class="custom-select" id="sort">
+                <option selected>Choose...</option>
+                <option value="1">Index</option>
+                <option value="2">First Name</option>
+                <option value="3">Last Name</option>
+                <option value="4">Email</option>
+                <option value="5">Phone Number</option>
+        </select>
+
+        <div>
+            <table id="my-table">
+                <thead>
+                    <tr id="first-row">
+                        <th>ID</th>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Phone</th>
+                        <th>Sxxxy Action</th>
+                        <th>Delete Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+
+        <script src="JS/jquery-3.2.1.js"></script>
+        <script src="JS/script.js"></script>
+    </body>
+</html>
+

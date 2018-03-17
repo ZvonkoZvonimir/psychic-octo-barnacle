@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/style.css" />
+    
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<body>
+    <div id="inputs-div">
+        <input class="contactfield" type="text" placeholder="Your Name Sir" id="name-input">
+        <input class="contactfield" type="text" placeholder="Your Last Name Sir" id="lastname-input">
+        <input class="contactfield" type="text" placeholder="Your Email Sir" id="email-input">
+        <input class="contactfield" type="password" placeholder="Your Password Sir" id="pass-input">
+        <input class="contactfield" type="text" placeholder="Your Phone Number" id="phone-input">
+        <button id="new-row-btn">Add Contact</button>
+    </div>
+    <div>
+        <select class="custom-select" id="sort">
+    <option selected>Choose...</option>
+    <option value="0">Index</option>
+    <option value="1">First Name</option>
+    <option value="2">Last Name</option>
+    <option value="3">Email</option>
+    <option value="5">Phone Number</option>
+    </select>
+    </div>
+    <div>
+        <table id="my-table" data-lastrowadded="0">
+        <thead>
+            <tr class="first-row">
+            <th>ID</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Phone</th>
+            <th>Sxxxy Action</th>
+            <th>Delete Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="contact-row">
+            <td class='td-id'>0</td>
+            <td class='f_Name'></td>
+            <td class='l_Name'></td>
+            <td class='e_mail'></td>
+            <td class='pass_in'></td>
+            <td class='phone_in'></td>
+            <td class='td-three-Btn'><button class='save-Btn'>save</button><button class='edit-Btn'>edit</button><button class='del-Btn'>del</button>
+            </td>
+            <td class='td-del'>
+                <button class='del-row'>Del Row</button>
+            </td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
+    <script src="JS/jquery-3.2.1.js"></script>
+    <script src="JS/script.js"></script>
+
+    </body>
+</html>
+
